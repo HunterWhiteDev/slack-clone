@@ -17,6 +17,8 @@ function Header() {
           alt={user?.displayName}
           src={user?.photoURL}
         />
+
+        <h3>{user?.displayName}</h3>
         <AccessTimeOutlined />
         {/* Time Icon */}
       </div>

@@ -1,9 +1,4 @@
-export const initialState = {
-  user: {
-    displayName: "live_demo_test_account",
-    photoURL: "https://miro.medium.com/max/875/1*0FqDC0_r1f5xFz3IywLYRA.jpeg",
-  },
-};
+export const initialState = {};
 
 export const actionTypes = {
   SET_USER: "SET_USER",

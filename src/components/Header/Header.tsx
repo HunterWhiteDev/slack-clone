@@ -1,4 +1,4 @@
-import { SearchOutlined, ExpandMore } from "@material-ui/icons";
+import { SearchOutlined, ExpandMore } from "@mui/icons-material";
 import { ChangeEvent, useState } from "react";
 import "./Header.css";
 import { useStateValue } from "../../StateProvider";

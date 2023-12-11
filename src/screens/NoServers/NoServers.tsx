@@ -1,9 +1,9 @@
 import React, { ChangeEvent } from "react";
 import "./NoServers.css";
-import { Add, Link } from "@material-ui/icons";
+import { Add, Link } from "@mui/icons-material";
 import Modal from "../../components/Modal/Modal";
 import { useState } from "react";
-import { Input } from "@material-ui/core";
+import { Input } from "@mui/material";
 import db from "../../firebase";
 import { doc, serverTimestamp, setDoc } from "firebase/firestore";
 import { useStateValue } from "../../StateProvider";

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ServerList.css";
-import { Add, Link } from "@material-ui/icons";
-import { Input } from "@material-ui/core";
+import { Add, Link } from "@mui/icons-material";
+import { Input } from "@mui/material";
 import Modal from "../Modal/Modal";
 import { doc, serverTimestamp, setDoc } from "firebase/firestore";
 import db from "../../firebase";

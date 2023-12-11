@@ -1,6 +1,6 @@
 import React, { MouseEventHandler } from "react";
 import "./Modal.css";
-import { Close } from "@material-ui/icons";
+import { Close } from "@mui/icons-material";
 import { useState } from "react";
 
 interface ModalProps {

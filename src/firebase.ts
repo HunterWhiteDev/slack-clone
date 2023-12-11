@@ -10,13 +10,13 @@ import { getFirestore } from "firebase/firestore";
 import { getFunctions } from "firebase/functions";
 import "firebase/firestore";
 import "firebase/functions";
-const firebaseKeys = require("./firebaseKeys");
+import firebaseKeys from "./firebaseKeys";
 
 const firebaseConfig = firebaseKeys;
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
-export const auth = getAuth();
+export const auth = getAuth(app);
 export const functions = getFunctions(app, "us-central1");
 export const signInWithEmail = signInWithEmailAndPassword;
 export const signUp = createUserWithEmailAndPassword;

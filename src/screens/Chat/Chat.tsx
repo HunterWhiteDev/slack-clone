@@ -1,4 +1,4 @@
-import { InfoOutlined } from "@material-ui/icons";
+import { InfoOutlined } from "@mui/icons-material";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./Chat.css";

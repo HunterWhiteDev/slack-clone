@@ -10,7 +10,7 @@ import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
     <StateProvider initialState={initialState} reducer={reducer}>
-      <BrowserRouter>
+      <BrowserRouter basename="/React">
         <App />
       </BrowserRouter>
     </StateProvider>

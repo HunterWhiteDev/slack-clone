@@ -1,4 +1,4 @@
-import { Button, Input } from "@material-ui/core";
+import { Button, Input } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import "./Login.css";
 import { useStateValue } from "../../StateProvider";

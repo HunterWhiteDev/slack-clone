@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./ProfileOptions.css";
 import ProfileOption from "./ProfileOption";
-import { Edit, ExitToApp } from "@material-ui/icons";
-import { Input } from "@material-ui/core";
+import { Edit, ExitToApp } from "@mui/icons-material";
+import { Input } from "@mui/material";
 import { doc, setDoc } from "firebase/firestore";
 import { actionTypes } from "../../reducer";
 import { useStateValue } from "../../StateProvider";
@@ -31,12 +31,12 @@ function ProfileOptions() {
   };
 
   const handleLogOut = () => {
-    logOut(auth)
+    logOut(auth);
     dispatch({
       user: null,
-      type: actionTypes.SET_USER
-    })
-  }
+      type: actionTypes.SET_USER,
+    });
+  };
 
   return (
     <div className="profileOptions">
@@ -54,11 +54,7 @@ function ProfileOptions() {
         Icon={Edit}
         onClick={() => setOpen(true)}
       />
-      <ProfileOption
-        title={"Logout"}
-        Icon={ExitToApp}
-        onClick={handleLogOut}
-      />
+      <ProfileOption title={"Logout"} Icon={ExitToApp} onClick={handleLogOut} />
     </div>
   );
 }

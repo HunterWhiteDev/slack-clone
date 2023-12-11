@@ -1,5 +1,5 @@
-import { Input } from "@material-ui/core";
-import { Add, Create, KeyboardVoice, Message, Link } from "@material-ui/icons";
+import { Input } from "@mui/material";
+import { Add, Create, KeyboardVoice, Message, Link } from "@mui/icons-material";
 import { useState, useEffect } from "react";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";

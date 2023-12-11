@@ -1,0 +1,27 @@
+.serverList__content {
+  background-color: var(--slack-color);
+  position: absolute;
+  top: 2.5rem;
+  left: -0.5px;
+  width: 100%;
+  border: 1px solid gray;
+  border-top: none;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  z-index: 100 !important;
+}
+
+.serverList__servers > h1 {
+  padding: 0.5rem;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.serverList__servers > h1 > span {
+  margin-left: 10px;
+}
+
+.serverList__servers > h1:hover {
+  background-color: #581659d4;
+}

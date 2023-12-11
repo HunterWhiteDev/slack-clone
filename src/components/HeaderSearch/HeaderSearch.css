@@ -1,0 +1,35 @@
+.headerSearch {
+  position: absolute;
+  width: 100%;
+  background-color: hsl(297, 37%, 19%);
+  top: 2.25rem;
+  left: -0.5px;
+  --border: 1px solid gray;
+  --borderRadius: 6px;
+  border-left: var(--border);
+  border-right: var(--border);
+  border-bottom: var(--border);
+  border-bottom-left-radius: var(--borderRadius);
+  border-bottom-right-radius: var(--borderRadius);
+}
+
+.headerSearch > p {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0.25rem 0;
+}
+
+.searchResult {
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.searchResult:hover {
+  background-color: var(--slack-color);
+}

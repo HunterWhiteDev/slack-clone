@@ -41,6 +41,12 @@ function Login() {
           alt=""
         />
         <h1>Sign in to Slack Clone</h1>
+
+        <p className="login__warning">
+          Note: This is a clone of Slack for demonstration purposes. Do not
+          login with your actual Slack credentials.
+        </p>
+
         <Input
           value={email}
           onChange={(e) => setEmail(e.target.value)}

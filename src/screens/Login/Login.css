@@ -41,3 +41,9 @@
   background-color: #0a8d48 !important;
   color: white;
 }
+
+.login__warning {
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+}

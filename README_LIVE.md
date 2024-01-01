@@ -20,13 +20,12 @@ Write a message to send to other user!
 Create your own server, or join anothers.
 ![create](https://i.imgur.com/BlDjxkp.png)
 
-### `Returns & Orders`
+### `Search for messages`
 
 Search for messages in your current chat.
 ![search](https://i.imgur.com/wXfha63.png)
 
-### `Check Out`
+### `Change your nick name`
 
 Create a text channel or change your username.
 ![name](https://i.imgur.com/lDYWmju.png)
-![chat](https://i.imgur.com/dvwVWln.png)

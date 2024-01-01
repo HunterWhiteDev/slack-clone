@@ -18,7 +18,7 @@ Write a message to send to other user!
 ### `Create or Join`
 
 Create your own server, or join anothers.
-![create](https://i.imgur.com/zrUg8po.png)
+![create](https://i.imgur.com/BlDjxkp.png)
 
 ### `Returns & Orders`
 
@@ -30,8 +30,3 @@ Search for messages in your current chat.
 Create a text channel or change your username.
 ![name](https://i.imgur.com/lDYWmju.png)
 ![chat](https://i.imgur.com/dvwVWln.png)
-
-### `Invite`
-
-Invite other users to your server
-![invite](https://i.imgur.com/CoLmCrL.png)

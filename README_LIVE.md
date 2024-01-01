@@ -15,7 +15,7 @@ Enter your login information to start sending messages!
 Write a message to send to other user!
 ![message](https://i.imgur.com/xKPtX2w.png)
 
-### `Sign In Page`
+### `Create or Join`
 
 Create your own server, or join anothers.
 ![create](https://i.imgur.com/zrUg8po.png)

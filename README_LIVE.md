@@ -2,10 +2,7 @@
 
 ### `Login Page`
 
-Enter your login information to start sending messages!
-email/username: `123@test.com`
-password: `password`
-
+Login with the following credentials: email/username: `123@test.com` password: `password`
 ![login!](https://i.imgur.com/Djpasj8.png)
 
 ### `Send a message`
